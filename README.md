@@ -14,7 +14,7 @@ time and a lesser creative mind. The app has the following structure.
     * `NetworkRequestUtil` *(Handled all the network operations here)*
 * viewmodel
     * `MainActivityViewModel` *(ViewModel of the MainActivity)*
-    * `FlickrPhoto` *(Model for Flickr Photo Object)*
+    * `PhotoData` *(Model for Flickr Photo Object)*
     
 ## Probable Improvements for future
 * Improve Image Caching Library to use local cache and avoid external storage.
