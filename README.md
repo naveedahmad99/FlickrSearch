@@ -1,28 +1,20 @@
 # FlickrSearch (Kotlin)
 ---
-
+![Alt text](https://github.com/naveedahmad99/FlickrSearch/blob/master/screenshots/screenshot1.png?raw=true "Screenshot")
 
 The application has a very basic UI. No work has been done on the design due to shortage of 
 time and a lesser creative mind. The app has the following structure.
-
-* screenshots
 
 * activity
     * `MainActivity` *(Base class for handling common functionality for all `Activities`)*
 * adapter
     * `GenericAdapter` *(Adapter class for handling data)*
     * `CustomBindingAdapter` *(Binding Adapter class for handling ImageView src)*
-* fragment
-    * `BaseFragment` *(Base class for handling common functionality for all `Fragments`)*
-    * `HomeFragment`
-* interfaces
-    * `ActivityDestroyedListener`
-    * `CurrentActivityListener`
-* models
-    * `FlickrPhoto` *(Model for Flickr Photo Object)*
-    * `SearchPhotosResponse` *(Model for API Response)*
 * utils
     * `NetworkRequestUtil` *(Handled all the network operations here)*
+* viewmodel
+    * `MainActivityViewModel` *(ViewModel of the MainActivity)*
+    * `FlickrPhoto` *(Model for Flickr Photo Object)*
     
 ## Probable Improvements for future
 * Improve Image Caching Library to use local cache and avoid external storage.
